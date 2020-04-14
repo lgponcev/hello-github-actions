@@ -1,0 +1,17 @@
+nombre : " Hola acciones "
+ descripción : " Saludar a alguien "
+ autor : " octocat@github.com "
+
+entradas :
+   MY_NAME :
+     descripción : " Who to greet "
+     requerido : verdadero por 
+    defecto : " World "
+
+ejecuta :
+   usando : " docker "
+   imagen : " Dockerfile "
+
+marca :
+   icono : " mic "
+   color : " púrpura "
